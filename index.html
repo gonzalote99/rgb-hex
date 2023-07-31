@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Danchik12/Color-Mixer/Kizune/img/favicon.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>rgb/hex</title>
+</head>
+<body>
+  <div id="canvas-container">
+     <div id="settings">
+        <label for="R">R</label>
+        <input type="range" id="R" name="R" min="0" max="255" value="100" step="1" oninput="Change_Color()" 
+        >
+
+        <label for="G">G</label>
+        <input type="range" id="G" name="G" min="0" max="255" value="100" step="1" oninput="Change_Color()" 
+        >
+
+        <label for="B">B</label>
+        <input type="range" id="B" name="B" min="0" max="255" value="100" step="1" oninput="Change_Color()" 
+        >
+     </div>
+     <div id="rgb"></div>
+     <canvas id="osnova" width="400" height="400"></canvas>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

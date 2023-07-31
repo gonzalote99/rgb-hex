@@ -1,0 +1,17 @@
+label {
+  font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+  margin: .4rem;
+}
+
+#osnova {
+border: 1px solid black;
+display: inline;
+}
+
+#canvas-container {
+  width: 100%;
+  text-align: center;
+}
